@@ -61,7 +61,6 @@ const ChessBoardSquare = ({
       className={`w-full h-full p-2 text-xs ${overrideColour} flex `}
       onClick={() => {
         console.log(`Clicked on square: ${coord}`);
-        console.log(`Piece type: ${pieceType}`);
         onSelect();
       }}
     >
